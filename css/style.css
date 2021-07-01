@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'DM Sans', sans-serif;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*header section*/
+
+.nav-head{
+	padding: 25px 0px;
+}
+
+.nav-link{
+	color: #161616;
+	font-size: 20px;
+	transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover{
+	color: red;
+}
+
+.cstm-border{
+	border-left: 1px solid #161616;
+}
+
+.fa-shopping-cart{
+	margin: 0px 5px;
+}
+
+.cart-item {
+    background: red;
+    border-radius: 50%;
+    width: 38px;
+    color: #ffff!important;
+    height: 38px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+/* hero section */
+
+.hero{
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	padding: 25px 0px;
+	min-height: 100vh;
+	width: 100%;
+	float: left;
+	background-position: top center;
+}
+
+.hero-content{
+	margin-top: 30%;
+
+}
+
+.hero-content h2{
+	font-size: 48px;
+    margin-bottom: -2%;
+    font-weight: bold;
+}
+
+.hero-content span{
+	border-bottom: 3px solid red;
+    display: block;
+    width: 68%;
+}
+
+
+/* Products Section */
+
+.popular-products{
+	padding: 25px 0px;
+	width: 100%;
+	float: left;
+}
+
+.title{
+	margin: 15px 0px;
+}
+
+.product-list{
+	border: 1px solid #b8bec3;
+    padding: 15px;
+    border-bottom: 4px solid #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product-list img{
+	
+}
+
+.product-list h2{
+	font-size: 26px;
+    margin: 10px;
+    font-family: 'Oswald';
+    font-weight: 700;
+
+}
+
+.product-list p{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.product-list a{
+	background: red;
+    display: block;
+    color: #ffff;
+    padding: 9px 20px;
+	text-decoration: none;
+    margin-bottom: -21%;
+    position: relative;
+}
+
+.product-btn{
+	margin-bottom: -13%!important;
+}
+
+.product-list span{
+	border: 1px solid #161616;
+    display: block;
+    margin: 10px;
+    margin-right: -5px;
+    padding: 21px;
+}
+
+
+/* Footer Section */
+
+.custom-footer{
+	background:url(../img/footer-bg.jpg)no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding: 50px 0px;
+	width: 100%;
+	float: left;
+}
+
+.footer-top{
+	border-bottom: 1px solid #303131;
+    margin: 15px 0px;
+}
+
+.img-center{
+
+}
+
+.footer-menu{
+
+}
+
+.footer-menu ul{
+	list-style: none;
+    text-align: center;
+}
+
+
+.footer-menu ul li{
+
+}
+
+.footer-menu ul li a{
+	color: #bcbdbd;
+	font-size: 14px;
+	transition: 0.4s ease-in-out;
+
+}
+
+.footer-menu ul li a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+
+.footer-content p{
+	color: #bcbdbd;
+	font-size: 14px;
+}
+
+.footer-bottom{
+
+}
+
+.footer-icon{
+
+}
+
+.footer-icon ul{
+	list-style: none;
+}
+
+.footer-icon ul li{
+	margin: 14px 5px;
+    display: inline-block;
+}
+
+.footer-icon ul li a{
+    color: #fff;
+    background: red;
+    padding: 6px 12px;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+
+}
+
+.footer-icon ul li a:hover{
+    color: red;
+    background: #ffffff;
+
+}
+
+
+.footer-copyright{
+
+}
+
+.footer-copyright h4{
+	font-size: 16px;
+	margin: 5px 0px;
+	color: #bcbdbd;
+	text-align: center;
+
+}
+
+
+
+
+/* Responsive Code */
+
+/* Mobile Device */
+
+
+@media (max-width: 768px) {
+  	.img-center {
+    display: block;
+    margin: 0 auto;
+	}
+
+	.footer-icon ul {
+    text-align: center;
+	}
+	.footer-copyright h4 {
+    margin: 10px 0px;
+	}
+	.footer-content p {
+    text-align: center;
+	}
+	.footer-menu ul {
+    margin-top: 15px;
+	}
+
+	.product-btn {
+    margin-bottom: -11%!important;
+	}
+
+	.product-list a {
+    margin-bottom: -10%;
+	}
+	.hero-content h2 {
+    font-size: 23px;
+	}
+	.hero {
+    padding: 25px 0px;
+    min-height: 50vh;
+	}
+
+	.hero-content {
+    margin-top: 16%;
+	}
+	.hero-content h2 {
+    font-size: 18px;
+    margin-bottom: -1%;
+	}
+
+	.hero-content span {
+    width: 53%;
+	}
+
+	.navbar-collapse {
+    padding: 15px;
+	}
+	.navbar-brand {
+    display: block;
+    margin: 0 auto;
+	}
+
+	.cstm-border{
+	border-top: 1px solid #161616;
+	border-left:none;
+	}
+}
